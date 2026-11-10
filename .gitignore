@@ -1,0 +1,31 @@
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Private business data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Editor
+.vscode/
+.DS_Store
